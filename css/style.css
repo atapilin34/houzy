@@ -281,11 +281,7 @@ body {
     justify-content: space-between;
 }
 
-.social-icon {
-    background: url("../img/social_media_icon.png") no-repeat;
-    padding: 28px 0 ;
-    width: 114px;
-    height: 28px;
+.social-icons {
     margin: 50px 0;
 }
 
