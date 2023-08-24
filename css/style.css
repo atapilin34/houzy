@@ -325,3 +325,7 @@ body {
     font-weight: 400;
     line-height: 160.7%; /* 25.712px */
 }
+
+.social-mail a {
+    color: #A4B3C6;
+}
