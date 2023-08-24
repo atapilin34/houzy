@@ -9,6 +9,7 @@
 }
 
 a {
+    color: #FFFFFF;
     text-decoration: none;
 }
 
@@ -34,6 +35,11 @@ body {
     background: #ECBC3E;
     color: #FFFF;
     padding: 10px 34px;
+}
+
+.main-btn:hover {
+    background: #efce78;
+    color: #FFFF;
 }
 
 .main_wrapper {
@@ -65,6 +71,12 @@ body {
     display: inline;
     list-style: none;
     margin-right: 30px;
+    cursor: pointer;
+}
+
+.nav-list ul li:hover {
+    transition: 1s all;
+    border-bottom: 1px solid white;
 }
 
 .nav-list ul li:last-of-type {
@@ -96,9 +108,19 @@ body {
     padding: 37px 38px;
 }
 
+.main-title-btn:hover {
+    background: rgba(215, 215, 215, 0.45);
+}
+
+.svg-item:hover {
+    fill: #ECBC3E;
+
+}
+
 .main-title-btn svg {
     position: sticky;
     transform: rotate(180deg);
+    fill: #FFFFFF;
 }
 
 .search {
@@ -166,6 +188,11 @@ body {
     line-height: normal;
     padding: 56px;
     background-color: #ECBC3E;
+}
+
+.search-btn:hover {
+    background: #efce78;
+    color: #FFFF;
 }
 
 .next-place {
@@ -255,6 +282,10 @@ body {
     border: 1px solid #FFF;
     color: #FFF;
     background: #183C67;
+}
+
+.footer-subscribe-email input:hover {
+    border: 1px solid #ECBC3E;
 }
 
 .footer-subscribe-email input::placeholder {
